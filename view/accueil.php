@@ -46,8 +46,8 @@
             <?php for($i=0;$i<=6;$i++): ?>
                 <div class="publ">
                     <div class="img">
-                        <button class="comment"><i class="fa-regular fa-comment-dots"></i></button>
-                        <button class="like"><i class="fa-regular fa-heart"></i></button>
+                        <a class="comment"><i class="fa-regular fa-comment-dots"></i></a>
+                        <a href="index.php?action=like" class="like"><i class="fa-<?=$coeur?> fa-heart "></i></a>
                     </div>
                 </div>
             <?php endfor;?>

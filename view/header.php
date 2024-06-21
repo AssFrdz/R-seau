@@ -8,11 +8,13 @@
     <title><?=$titre?></title>
 </head>
 <body>
+
+<?php $coeur="regular"?>
     <nav>
         <a href="index.php?action=accueil"><img src="" alt="" class="logo"></a>
         <a href="index.php?action=accueil">Accueil</a>
         <a href="index.php?action=galerie">Galerie</a>
-        <a href="index.php?action=aimer">Aimés</a>
+        <a href="index.php?action=like">Aimés</a>
         <a href="index.php?action=publier">Publier</a>
         <a href="index.php?action=compte"><i class="fa-solid fa-user"></i></a>
 
